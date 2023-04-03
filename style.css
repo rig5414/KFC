@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+#body {
+
+    background-image: url('./foodImages/burgerFries.png');
+    background-size: cover;
+    /* background-position: center; */
+    width: 100%;
+    height: 120vh;
+}
+nav{
+    width:100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul {
+    display: flex;
+    margin: 40px ;
+    padding: 10px;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 20px;
+    padding: 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: whitesmoke;
+    transition: all 0.8s ease;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: darkred;
+}
+nav div{
+    margin-left: 20px;
+}
+.Order{
+    margin: 33px 33px 0;
+    background-color: thistle;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 10px 10px;
+    color: darkred;
+    font-size: 1.2rem;
+    height: 42px;
+    text-decoration: none;
+    transition: all 0.7s ease;
+}
+.Order:hover{
+    color: antiquewhite;
+    background-color:tomato;
+}
+.section h1 {
+    text-align:center;
+    color: #f3f3f3fa;
+    font-size: 3em;
+    font-weight: 640;
+     display: flex;
+    flex: 4;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+#mainSection{
+    background-color: lightgrey;
+    background-color: rgba(204, 144, 142, 0.842);
+    padding: 20px;
+    text-align: center;
+}
+#services h3{
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#services .row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border:1px solid #121212;
+    border-radius: 3px;
+
+}
+#services .row .col{
+    width: 20%;
+    height: 40vh;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.428);
+    margin: 16px;
+    border-radius:3px ;
+}
+#services .row .col img{
+    background-position: center;
+    background-size: cover;
+    width: 98%;
+    height:30vh ;
+    margin: 5px 2px 2px;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+#services .row .col img:hover {
+    transform: scale(1.2);
+}
+#services .row .col h4{
+    color: darkred;
+}
+#services .row .col i{
+    color: goldenrod;
+    padding-right: 2px;
+}
+#services .row .col .buyBtn{
+    color: #fff;
+    background-color: #121212;
+    padding: 3px;
+    margin: 3px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 3px solid transparent;
+    transition: all 0.5s ease;
+}
+#services .row .col .buyBtn:hover{
+    color: #121212;
+    background-color: #524a4a;
+}
+
+/*contact*/
+#contactUs{
+    background-color: rgb(241, 242, 242);
+    width: 100%;
+    
+    border-radius: 5px;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.428);
+    display: flex;
+    justify-content:  center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.4)),url("./foodImages/1920143_793255360720649_8515708232054508404_n.jpg");
+
+}
+h3{
+    font-size: 3rem;
+}
+#contactUs .divContact{
+    font-size: 20px;
+    font-weight: 300;
+    width: 60%;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid darkred;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+.divContact h4{
+    margin: 10px 0 20px;
+}
+.divContact input{
+    padding: 10px;
+    margin: 10px 0 10px 37px;
+    font-size:17px ;
+    width: 90%;
+    background-color: rgba(253, 140, 140, 0.274);
+}
+.divContact textarea{
+    padding: 10px;  
+    margin: 10px 0 10px 37px;
+        width: 90%;
+    font-size:17px;
+    background-color: rgba(253, 140, 140, 0.274);
+
+}
+.divContact div{
+    width: 100%;
+    display: flex;
+   
+    justify-content: center;
+}
+.divContact button{
+    background-color: #c4b5b5;
+    color: #121212;
+    padding: 10px;
+   margin: 10px;
+        border: 2px solid transparent;
+    border-radius: 7px;
+    width: 50%;
+    transition: all 0.5s ease;
+   
+}
+.divContact input::placeholder{
+    color: #000;font-weight: 600;
+}
+.divContact button:hover{
+    color: #c4b5b5;
+ 
+    background-color: #121212;
+   
+}
+#about{
+ width: 100%;
+
+ background-color:antiquewhite; 
+ color: rgb(15, 15, 15);
+ display: flex;
+ justify-content: center;
+}
+.aboutDiv{
+    border-radius: 6px;
+    width: 60%;
+    background-color: whitesmoke;
+    box-shadow: 0 5px 7px rgba(0,0,0,0.4);
+    margin: 30px;
+    padding:10px;
+}
+#about h6{
+    font-size: 1.3rem;
+    margin: 20px;
+}
+#kfcPic{
+   
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)),url('./foodImages/1920143_793255360720649_8515708232054508404_n.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+   height: 120vh;
+}
+footer{
+    background-color: aliceblue;
+    color: black;
+    width: 100%;
+}
+footer .footer-0{
+    background: rgb(65, 43, 43);
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+footer .footer-0 span{
+    padding: 7px;
+    margin: 2px;
+}
+
+footer img{
+    margin: 20px;
+}
+footer .footer-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+footer li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+footer li a{
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px;
+    color: blue;
+    transition: all 0.5s ease;
+}footer li a:hover{
+  
+    color: rgb(145, 6, 6);
+}
+footer .footer-2{
+    background-color: rgb(48, 47, 47);
+   
+    width:100% ;
+    text-align: center;
+}
+footer .footer-2 h6{
+    color: #fff;
+    font-size: 17px;
+    padding: 15px;
+}footer h5{
+    font-size: 25px;
+    color: #121212;
+    margin: 5px;
+    padding: 5px;
+}

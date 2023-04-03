@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kentucky Fried Chicken</title>
+
+</head>
+<body>
+    <section id="body" >
+ <div class="Rig"> 
+         <nav>
+             <div>
+                 <img src="./foodImages/kfc_logo1.png" alt=""width="100">
+             </div>
+             <ul class="Nav bar">
+                 <li><a href="#"class="Home">Home</a></li>
+                 <li><a href="#menu"class="Menu">Menu</a></li>
+                 <li><a href="#Remark"class="Contact">Contact</a></li>
+                 <li><a href="about.html"class="about">About</a></li>
+             </ul>
+             <a href="order.html"class="Order">My Orders</a>
+         </nav>
+         <section class="section">
+             <header>
+                 <h1>
+                  YOUR TASTE OUR STORY</h1>
+             </header>
+         </section>
+         </div>
+    </section>
+    <main id="mainSection">
+        <!--======================== services========================== -->
+        <div id="favourites"></div>
+    <section id="services">
+        <h3>Favourites</h3>
+        <div class="row">
+            <div class="col">
+                <img src="./foodImages/pizza slice nd soda.jpg" alt="">
+                <span>
+                    <h4>Pizza</h4>
+                    <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+
+                </span>
+                <button onclick="addToCart()" class="buyBtn" id="buyBtn">Take</button>
+               
+            </div>
+            <div class="col">
+                <img src="./foodImages/burger.jpg" alt="">
+                <span>
+                    <h4>Burger</h4>
+                                       <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+                </span>
+                <button onclick="addToCart()" class="buyBtn" id="buyBtn">Take</button>
+            </div><div class="col">
+                <img src="./foodImages/pizza slice nd soda.jpg" alt="">
+                <span>
+                    <h4>Pizza</h4>
+                    <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+
+                </span>
+                <button onclick="addToCart()" class="buyBtn" id="buyBtn">Take</button>
+               
+            </div>
+
+            <div class="col">
+                <img src="./foodImages/friesMasala.jpg" alt="">
+                <span>
+                    <h4>Fries</h4>
+                                       <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+                </span>
+                <button onclick="addToCart()" class="buyBtn" id="buyBtn">Take</button>
+            </div>
+           
+
+        </div>
+
+    </section>
+    <br>
+    <br>
+    <div id="menu"></div>
+    <section id="services">
+        <h3>Our Menu</h3>
+        <div class="row">
+            <div class="col">
+                <img src="./foodImages/plain pilau.jpg" alt="">
+                <span>
+                    <h4>Chinese rice</h4>
+                    <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+                <span>Ksh 270</span>
+                </span>
+                <button onclick="addToCart()" class="buyBtn" id="buyBtn">Take</button>
+               
+            </div>
+            <div class="col">
+                <img src="./foodImages/friedChicken.jpg" alt="">
+                <span>
+                    <h4>Fried Chicken</h4>
+                                       <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+
+                    <span>Ksh 200</span>
+                </span>
+                <button onclick="addToCart()" class="buyBtn" id="buyBtn">Take</button>
+            </div>
+            <div class="col">
+                <img src="./foodImages/fries.jpg" alt="">
+                <span>
+                    <h4>Deep fries</h4>
+                                       <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+
+                    <span>Ksh 100</span>
+                </span>
+                <button onclick="addToCart()" class="buyBtn" id="buyBtn">Take</button>
+            </div>
+
+            <div class="col">
+                <img src="./foodImages/burgerFries2.jpg" alt="">
+                <span>
+                    <h4>Burger & Fries</h4>
+                                       <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+
+                    <span>Ksh 400</span>
+                </span>
+                <button onclick="addToCart()" class="buyBtn" id="buyBtn">Take</button>
+            </div>
+
+            <div class="col">
+                <img src="./foodImages/chicken piece.jpg" alt="">
+                <span>
+                    <h4>Chicken Piece</h4>
+                                       <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+
+                    <span>Ksh 80</span>
+                </span>
+                <button onclick="addToCart()" class="buyBtn" id="buyBtn">Take</button>
+            </div>
+
+            <div class="col">
+                <img src="./foodImages/crisps soda.jpg" alt="">
+                <span>
+                    <h4>Crisps soda</h4>
+                                       <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+
+                    <span>Ksh 120</span>
+                </span>
+                <button onclick="addToCart()" class="buyBtn" id="buyBtn">Take</button>
+            </div>
+
+            <div class="col">
+                <img src="./foodImages/pilau.jpg" alt="">
+                <span>
+                    <h4>Beef pilau</h4>
+                                       <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+
+                    <span>Ksh 400</span>
+                </span>
+                <button onclick="addToCart()" class="buyBtn" id="buyBtn">Take</button>
+            </div>
+
+            <div class="col">
+                <img src="./foodImages/pizza.jpg" alt="">
+                <span>
+                    <h4>Pizza large</h4>
+                                       <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+
+                    <span>Ksh 1200</span>
+                </span>
+                <button onclick="addToCart()" class="buyBtn" id="buyBtn">Take</button>
+            </div>
+
+            <div class="col">
+                <img src="./foodImages/potatoWedges.jpg" alt="">
+                <span>
+                    <h4>Wedges nd soda</h4>
+                                       <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+
+                    <span>Ksh 180</span>
+                </span>
+                <button onclick="addToCart()" class="buyBtn" id="buyBtn">Take</button>
+            </div>
+
+            <div class="col">
+                <img src="./foodImages/chicken legs nd sauce.jpg" alt="">
+                <span>
+                    <h4>Chicken legs</h4>
+                                       <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+
+                    <span>Ksh 250</span>
+                </span>
+                 <button onclick="addToCart()" class="buyBtn" id="buyBtn">Take</button>
+            </div>
+           
+
+        </div>
+
+    </section>
+        <!--========================contact US ========================== -->
+        <div id="Remark">
+
+        </div>
+        <h3>Remark</h3>
+    <section id="contactUs"> 
+    <div class="divContact">
+       <h4>Please leave a remark with us</h4>
+       <input type="email" placeholder="rigidcapita10@gmail.com">
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <div>
+            <button>Send Remark</button>
+        </div>
+    </div>            
+    </section>
+       
+       
+    </main>
+    <footer>
+        <div class="footer-0">
+            <span>
+                rigidcapita10@gmail.com
+            </span>
+            <span> 
+                +254711580663
+            </span>
+            <span>
+                +254732082389
+            </span>
+        </div>
+        <div class="footer-1">
+            <img src="./foodImages/kfc_logo1.png" alt="" width="150">
+            <span>
+                <h5>Visit Links</h5>
+                <ul><li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                   <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="order.html">My Orders</a></li>
+                </ul>
+            </span>
+            <span><h5>Follow Us</h5>
+            <ul>
+                <li><a href="Twitter.com">Twitter</a></li>
+                <li><a href="Facebook.com">Facebook</a></li>
+                <li><a href="instagram.com">Instagram</a></li>
+            </ul>
+            </span>
+        </div>
+        <div class="footer-2">
+            <h6> © KFC-2023 All Rights Reserved</h6>
+        </div>
+
+
+
+
+<script src='./js.js'></script>
+    </footer>
+</body>
+</html>
